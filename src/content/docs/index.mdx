@@ -1,36 +1,30 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: 欢迎来到动物朋友资料站
+description: 在这里了解你的动物朋友硬件和软件
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: 恭喜你新提了炸弹，让我们看看它能怎么爆
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/throbber.svg
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: 看看厂商
+      link: /vendors/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: 写点垃圾
+      link: https://github.com/DenrianWeiss/explosive
       icon: external
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## 看看我能干点啥
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="为软件恐怖主义添油加醋" icon="add-document">
+		去 [GitHub](https://github.com/DenrianWeiss/explosive) 发 PR，让更多的用户吃爆桶
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="学学怎么用" icon="open-book">
+		可以去 [Starlight 文档](https://starlight.astro.build/) 提高一下姿势水平.
 	</Card>
 </CardGrid>
