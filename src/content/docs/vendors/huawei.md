@@ -22,8 +22,8 @@ description: 看看都有谁造的炸弹
 - Hi1612(鲲鹏912)
 - Hi1616(鲲鹏916)
 - Hi1620(鲲鹏920)
-    - [920V1](/products/huawei/soc/hi1620.md)
-    - [920V2](/products/huawei/soc/hi1630.md)
+    - [920V1](/products/huawei/soc/hi1620)
+    - [920V2](/products/huawei/soc/hi1630)
 
 ## 加速器及计算卡
 
